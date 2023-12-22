@@ -15,16 +15,16 @@ Neste Repositorio estão 3 pastas, 2 sao os microservicos que possuem suas funci
 
 ## Funcionalidades Implementadas
 
-### Actuator
-
-O projeto está configurado para usar o Spring Boot Actuator, que fornece recursos prontos para uso para monitorar a saúde e métricas da aplicação.
-
 ### ZIPKIN
 
 Zipkin é um sistema de rastreamento distribuído. Ele ajuda a rastrear as solicitações através de vários serviços para identificar atrasos e problemas de desempenho, proporcionando uma visão detalhada do tráfego de solicitações.
 
+![Zipkin](ms-reserva/imagens/zipkin.png)
+
 ### Eureka
 Eureka é um serviço de descoberta usado em arquiteturas de microserviços. Ele permite que serviços se registrem nele e descubram outros serviços de forma dinâmica, facilitando a comunicação e o balanceamento de carga
+
+![Eureka](ms-reserva/imagens/eureka.png)
 
 ### Swagger UI
 
@@ -33,6 +33,19 @@ A documentação da API RESTful está disponível através do Swagger UI. Para a
 http://localhost:8081/swagger-ui/index.html#/
 
 ![Swagger](ms-reserva/imagens/swagger.png)
+
+### Actuator
+
+O projeto está configurado para usar o Spring Boot Actuator, que fornece recursos prontos para uso para monitorar a saúde e métricas da aplicação.
+
+## Aplicações de desenvolvimento
+
+### Docker 
+Docker é uma plataforma de contêinerização que permite encapsular aplicações e suas dependências em contêineres. Isso facilita a implantação, o escalonamento e a execução de aplicações em diferentes ambientes de forma consistente e isolada, promovendo a portabilidade e eficiência.
+![Docker](ms-reserva/imagens/docker.png)
+
+### Intellij
+![intellij](ms-reserva/imagens/intellij.png)
 
 ## Instruções para Execução
 
